@@ -1,0 +1,15 @@
+{
+    "require": {
+        "noahbuscher/macaw": "dev-master"
+    },
+    "autoload":{
+    	"files": [
+            "utils/phpqrcode.php",
+            "utils/common.php"
+        ],
+    	"psr-4": {
+            "Utils\\": "utils/"
+        }
+    }
+
+}
